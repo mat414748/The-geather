@@ -61,7 +61,7 @@ function update(msg, model) {
     }
     case MSGS.SAVE_weather: {
         const updatedModel = add(msg, model);
-        return updatedModel;
+        return  ;
     }
     case MSGS.DELETE_weather: {
       const { id } = msg;
